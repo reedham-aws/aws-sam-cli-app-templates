@@ -1,0 +1,22 @@
+{
+    "project_name": "Name of the project",
+    "runtime": ["nodejs20.x", "nodejs22.x", "nodejs24.x"],
+    "architectures": {
+        "value": ["x86_64", "arm64"]
+    },
+    "options": {
+        "nodejs20.x": {
+            "version": "20"
+        },
+        "nodejs22.x": {
+            "version": "22"
+        },
+        "nodejs24.x": {
+            "version": "24"
+        }
+    },
+    "_copy_without_render": [
+        ".gitignore",
+        "*.vue"
+    ]
+}

@@ -2,12 +2,14 @@ from tests.integration.unit_test.unit_test_base import UnitTestBase
 
 
 class UnitTest_nodejs22_x_cookiecutter_aws_sam_hello_nodejs(UnitTestBase.NodejsUnitTestBase):
-    directory = "nodejs22.x/hello"
+    runtime = "nodejs22.x"
+    directory = "nodejs/hello"
     code_directories = ["hello-world"]
 
 
 class UnitTest_nodejs22_x_cookiecutter_aws_sam_step_functions_sample_app(UnitTestBase.NodejsUnitTestBase):
-    directory = "nodejs22.x/step-func"
+    runtime = "nodejs22.x"
+    directory = "nodejs/step-func"
     code_directories = [
         "functions/stock-buyer",
         "functions/stock-checker",
@@ -16,39 +18,48 @@ class UnitTest_nodejs22_x_cookiecutter_aws_sam_step_functions_sample_app(UnitTes
 
 
 class UnitTest_nodejs22_x_cookiecutter_quick_start_from_scratch(UnitTestBase.NodejsUnitTestBase):
-    directory = "nodejs22.x/scratch"
+    runtime = "nodejs22.x"
+    directory = "nodejs/scratch"
 
 
 class UnitTest_nodejs22_x_cookiecutter_quick_start_cloudwatch_events(UnitTestBase.NodejsUnitTestBase):
-    directory = "nodejs22.x/cw-event"
+    runtime = "nodejs22.x"
+    directory = "nodejs/cw-event"
 
 
 class UnitTest_nodejs22_x_cookiecutter_quick_start_response_streaming(UnitTestBase.NodejsUnitTestBase):
-    directory = "nodejs22.x/response-streaming"
+    runtime = "nodejs22.x"
+    directory = "nodejs/response-streaming"
     code_directories = ["src"]
 
 
 class UnitTest_nodejs22_x_cookiecutter_quick_start_s3(UnitTestBase.NodejsUnitTestBase):
-    directory = "nodejs22.x/s3"
+    runtime = "nodejs22.x"
+    directory = "nodejs/s3"
 
 
 class UnitTest_nodejs22_x_cookiecutter_quick_start_sns(UnitTestBase.NodejsUnitTestBase):
-    directory = "nodejs22.x/sns"
+    runtime = "nodejs22.x"
+    directory = "nodejs/sns"
 
 
 class UnitTest_nodejs22_x_cookiecutter_quick_start_sqs(UnitTestBase.NodejsUnitTestBase):
-    directory = "nodejs22.x/sqs"
+    runtime = "nodejs22.x"
+    directory = "nodejs/sqs"
 
 
 class UnitTest_nodejs22_x_cookiecutter_quick_start_web(UnitTestBase.NodejsUnitTestBase):
-    directory = "nodejs22.x/web"
+    runtime = "nodejs22.x"
+    directory = "nodejs/web"
 
 
 class UnitTest_nodejs22_x_cookiecutter_quick_start_full_stack(UnitTestBase.NodejsUnitTestBase):
-    directory = "nodejs22.x/full-stack"
+    runtime = "nodejs22.x"
+    directory = "nodejs/full-stack"
     code_directories = ["backend", "frontend"]
 
 
 class UnitTest_nodejs22_x_cookiecutter_aws_sam_gql_quick_start(UnitTestBase.NodejsUnitTestBase):
-    directory = "nodejs22.x/hello-gql"
+    runtime = "nodejs22.x"
+    directory = "nodejs/hello-gql"
     code_directories = ["greeter"]

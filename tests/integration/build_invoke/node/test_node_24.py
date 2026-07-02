@@ -8,49 +8,61 @@ For each template, it will test the following sam commands:
 """
 
 class BuildInvoke_nodejs24_x_cookiecutter_aws_sam_hello_nodejs(BuildInvokeBase.SimpleHelloWorldBuildInvokeBase):
-    directory = "nodejs24.x/hello"
+    runtime = "nodejs24.x"
+    directory = "nodejs/hello"
 
 class BuildInvoke_nodejs24_x_cookiecutter_aws_sam_step_functions_sample_app(BuildInvokeBase.BuildInvokeBase):
-    directory = "nodejs24.x/step-func"
+    runtime = "nodejs24.x"
+    directory = "nodejs/step-func"
 
 
 class BuildInvoke_nodejs24_x_cookiecutter_quick_start_from_scratch(BuildInvokeBase.BuildInvokeBase):
-    directory = "nodejs24.x/scratch"
+    runtime = "nodejs24.x"
+    directory = "nodejs/scratch"
 
 
 class BuildInvoke_nodejs24_x_cookiecutter_quick_start_cloudwatch_events(BuildInvokeBase.BuildInvokeBase):
-    directory = "nodejs24.x/cw-event"
+    runtime = "nodejs24.x"
+    directory = "nodejs/cw-event"
 
 
 class BuildInvoke_nodejs24_x_cookiecutter_quick_start_s3(BuildInvokeBase.BuildInvokeBase):
-    directory = "nodejs24.x/s3"
+    runtime = "nodejs24.x"
+    directory = "nodejs/s3"
 
 
 class BuildInvoke_nodejs24_x_cookiecutter_quick_start_sns(BuildInvokeBase.BuildInvokeBase):
-    directory = "nodejs24.x/sns"
+    runtime = "nodejs24.x"
+    directory = "nodejs/sns"
 
 
 class BuildInvoke_nodejs24_x_cookiecutter_quick_start_sqs(BuildInvokeBase.BuildInvokeBase):
-    directory = "nodejs24.x/sqs"
+    runtime = "nodejs24.x"
+    directory = "nodejs/sqs"
 
 
 class BuildInvoke_nodejs24_x_cookiecutter_quick_start_response_streaming(BuildInvokeBase.BuildInvokeBase):
-    directory = "nodejs24.x/response-streaming"
+    runtime = "nodejs24.x"
+    directory = "nodejs/response-streaming"
 
 
 class BuildInvoke_nodejs24_x_cookiecutter_quick_start_web(BuildInvokeBase.QuickStartWebBuildInvokeBase):
-    directory = "nodejs24.x/web"
+    runtime = "nodejs24.x"
+    directory = "nodejs/web"
 
 
 class BuildInvoke_nodejs24_x_cookiecutter_quick_start_full_stack(BuildInvokeBase.QuickStartWebBuildInvokeBase):
-    directory = "nodejs24.x/full-stack"
+    runtime = "nodejs24.x"
+    directory = "nodejs/full-stack"
 
 
 class BuildInvoke_image_nodejs24_x_cookiecutter_aws_sam_hello_nodejs_lambda_image(
     BuildInvokeBase.SimpleHelloWorldBuildInvokeBase
 ):
-    directory = "nodejs24.x/hello-img"
+    runtime = "nodejs24.x"
+    directory = "nodejs/hello-img"
 
 
 class BuildInvoke_nodejs24_x_cookiecutter_aws_sam_gql_quick_start(BuildInvokeBase.BuildInvokeBase):
-    directory = "nodejs24.x/hello-gql"
+    runtime = "nodejs24.x"
+    directory = "nodejs/hello-gql"
